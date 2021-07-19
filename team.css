@@ -1,0 +1,163 @@
+﻿/*31039831
+31165461*/
+body {
+    
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    position:fixed;
+    vertical-align: middle;
+    height:4vh;
+    width:96vw;
+    background-color: #000;
+    padding:1vw 2vw 1vw 2vw;
+    opacity: 0.8;
+    z-index:3;
+    border-bottom:2px solid #00c465;
+}
+#up{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index:3;
+    color: #fff;
+    font-size:6vh;
+    text-align: center;
+    background-color: #00c465;
+    box-shadow: 0 0 10px #333;
+}
+    #up:hover{
+        right: 27px;
+        bottom: 27px;
+        width: 46px;
+        height: 46px;
+        font-size:7vh;
+    }
+#logo{
+    float:left;
+    height:100%;
+}
+#maindiv{
+    background-color: #e8eadf;
+    width: 100vw;
+    height:50vw;
+}
+#wall{
+    width:100%;
+    float:right;
+}
+span{
+    color: #00c465;
+    text-shadow: 0 0 25px #000;
+}
+#heading{
+    position: absolute;
+    font-size:7vw;
+    top: 45vh;
+    left: 10vw;
+    width:35vw;
+    color: #fff;
+    font-weight: bolder;
+    text-shadow: 0 0 25px #000;
+}
+h3{
+    color:#fff;
+    font-weight: thin;
+    float:right;
+    margin-bottom: auto;
+    margin-top:auto;
+    margin-right:2vw;
+    margin-left:3vw;
+    border-bottom:.5vh solid #000;
+}
+    h3:hover{
+        border-bottom:.2vh solid #00c465;
+    }
+#teamimg{
+    width: 35vw;
+    margin: 7vh 8vw 7vh 0;
+    float: right;               
+}
+#team{
+    width: 100vw;
+    background-color: #fff;
+    height: 135vh;
+}
+#teamleft{
+    width :40vw;
+    float:left;
+}
+.teamhead{
+    padding:7vh 0 5vh 0;
+    float:left;
+    width : 45vw;
+    text-align: left;
+    color: #00c465;
+}
+h4{
+    margin: 10vh 0 0 10vw;
+    font-size:2vw;
+}
+.lefttext{
+    float: left;
+    width: 40vw;
+    margin:0 0 0 10vw;
+    text-align: left;
+    color: #666769;
+    line-height:4vh;
+}
+#meetteam{
+    width: 100vw;
+}
+#meethead{
+    margin:7vh 0 5vh 0;
+    width : 100vw;
+    text-align: center;
+    color: #105422;
+    font-size:4vw;
+}
+table{
+    width:80vw;
+    font-size: 2.5vw;
+    background-color: #e8eadf;
+    border-radius: 2vh;
+    margin-bottom: 10vh;
+    padding: 5vh 0;
+}
+td{
+    text-align:center;
+}
+#footer{
+    width: 100vw;
+    height: 50vh;
+    background-color: #303030;
+    border-top: 2vh solid #303030;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 3vh;
+    color: #fff;
+}
+.details{
+    float: left;
+    width: 13%;
+    margin: 5vh 6vw 0 6vw;
+    color: #d1d1d1;
+    line-height:2.7vh;
+}
+#logofinal{
+    width: 100%;
+    margin:1vw 0 3vw 0;
+}
+#copyright{
+    margin-left: 1vw;
+    font-size:1vw;
+}
