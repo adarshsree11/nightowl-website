@@ -47,3 +47,34 @@
     width: 100vw;
     height:50vw;
 }
+#wall{
+    width:100%;
+    float:right;
+}
+span{
+    color: #00c465;
+    text-shadow: 0 0 25px #000;
+}
+#heading{
+    position: absolute;
+    font-size:7vw;
+    top: 45vh;
+    left: 10vw;
+    width:35vw;
+    color: #fff;
+    font-weight: bolder;
+    text-shadow: 0 0 25px #000;
+}
+h3{
+    color:#fff;
+    font-weight: thin;
+    float:right;
+    margin-bottom: auto;
+    margin-top:auto;
+    margin-right:2vw;
+    margin-left:3vw;
+    border-bottom:.5vh solid #000;
+}
+    h3:hover{
+        border-bottom:.2vh solid #00c465;
+    }
