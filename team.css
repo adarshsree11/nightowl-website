@@ -151,3 +151,11 @@ h3{
         color: #d1d1d1;
         line-height:2.7vh;
     }
+    #logofinal{
+        width: 100%;
+        margin:1vw 0 3vw 0;
+    }
+    #copyright{
+        margin-left: 1vw;
+        font-size:1vw;
+    }
