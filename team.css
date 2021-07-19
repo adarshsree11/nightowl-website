@@ -132,3 +132,22 @@ h3{
     td{
         text-align:center;
     }
+    #footer{
+        width: 100vw;
+        height: 50vh;
+        background-color: #303030;
+        border-top: 2vh solid #303030;
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        font-size: 3vh;
+        color: #fff;
+    }
+    .details{
+        float: left;
+        width: 13%;
+        margin: 5vh 6vw 0 6vw;
+        color: #d1d1d1;
+        line-height:2.7vh;
+    }
